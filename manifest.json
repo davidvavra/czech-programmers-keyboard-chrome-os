@@ -1,0 +1,22 @@
+{
+  "name": "Czech Programmer's keyboard",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Basically a US English keyboard, but with Czech characters accessible via holding SPACE key.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Czech Programmer's",
+      "type": "ime",
+      "id": "czprog",
+      "description": "Basically a US English keyboard, but with Czech characters accessible via holding SPACE key.",
+      "language": "en-US",
+      "layouts": ["us"]
+    }
+  ]
+}
